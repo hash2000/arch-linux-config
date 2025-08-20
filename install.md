@@ -34,3 +34,12 @@ sudo pacman -Syu neovim
 
 git clone https://github.com/LazyVim/starter ~/.config/nvim
 ```
+
+## Fonts
+```bash
+yay -S ttf-nerd-fonts-symbols
+yay -S ttf-font-awesome
+yay -S ttf-material-icons
+```
+```
+```
