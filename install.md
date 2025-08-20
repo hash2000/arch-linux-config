@@ -43,3 +43,10 @@ yay -S ttf-material-icons
 ```
 ```
 ```
+
+## Fish shell
+```bash
+sudo pacman -S fish pkgfile ttf-dejavu powerline-fonts
+which fish
+chsh
+```
