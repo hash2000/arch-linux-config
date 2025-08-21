@@ -41,8 +41,6 @@ yay -S ttf-nerd-fonts-symbols
 yay -S ttf-font-awesome
 yay -S ttf-material-icons
 ```
-```
-```
 
 ## Fish shell
 ```bash
