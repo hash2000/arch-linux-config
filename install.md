@@ -1,5 +1,8 @@
 ## Wifi connect
 ```bash 
+rfkill list
+rfkill unblock all
+
 iwctl
     device list
     station <station from list> scan
