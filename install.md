@@ -20,7 +20,7 @@ cd yay
 makepkg -si
 ```
 
-# CacyOS mirrors install
+## CacyOS mirrors install
 # https://wiki.cachyos.org/ru/features/optimized_repos/
 ```bash
 curl https://mirror.cachyos.org/cachyos-repo.tar.xz -o cachyos-repo.tar.xz
@@ -47,4 +47,15 @@ yay -S ttf-material-icons
 sudo pacman -S fish pkgfile ttf-dejavu powerline-fonts
 which fish
 chsh
+```
+
+## increase zram swap size
+```bash
+sudo nano /etc/systemd/zram-generator.conf
+
+[zram0]
+zram-size = min(ram, 8192)  # 8 ГБ, но не больше половины RAM
+compression-algorithm = zstd
+swap-priority = 100
+fs-type = swap
 ```

@@ -21,6 +21,9 @@ yay -Sy irqbalance
 nvim 
 ```
 
+```bash
+sudo nvim /etc/mkinitcpio.conf
+```
 
 HOOKS=(base udev autodetect microcode modconf kms keyboard keymap consolefont block filesystems fsck)
 HOOKS=(systemd autodetect microcode modconf kms keyboard keymap consolefont block filesystems fsck)
